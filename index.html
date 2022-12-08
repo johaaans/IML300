@@ -165,7 +165,7 @@
     <section id="thoughts">
         <h1><em>thoughts</em></h1>
 
-        <a href="https://docs.google.com/document/d/1GB6yQnvwODI6l1J4XbuWdy5s9JNwnImQm0zkymBXmUc/edit?usp=sharing">
+        <a href="https://docs.google.com/document/d/1gWHuQuOvTDLJDkZ0bJWOPpeckEhnmktgxOMtt1bWMdo/edit?usp=sharing">
           <img src="assets/media/roll.gif"/>
           <br>
           read
@@ -173,11 +173,25 @@
         <br>
     </section>
 
+    <div class="circle">
+            <div class="text">
+                <p>/code programmed by an artist named johans/</p>
+            </div>
+    </div>
+
     <!-- javascript -->
-    <!-- <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
     <script defer src="assets/main.js" ></script>
+
+    <script>
+        const text = document.querySelector('.text p');
+        text.innerHTML = text.innerText.split("").map(
+            (char, i) =>
+            `<span style="transform:rotate(${i*8.5}deg)">${char}</span>`
+        ).join("");
+    </script>
   </body>
 
 </html>
