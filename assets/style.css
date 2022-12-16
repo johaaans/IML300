@@ -91,35 +91,35 @@ section a{
 
 /*-- section images --*/
 section#home {
-  background-image: url("assets/media/index_1.gif");
+  background-image: url('../media/index_1.gif');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 section#presentation {
-  background-image: url("assets/media/boom.gif");
+  background-image: url('../media/boom.gif');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 section#projects {
-  background-image: url("assets/media/cute.gif");
+  background-image: url('../media/cute.gif');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 section#sketches {
-  background-image: url("assets/media/diagonal.gif");
+  background-image: url('../media/diagonal.gif');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 section#thoughts {
-  background-image: url("assets/media/roll.gif");
+  background-image: url('assets/media/roll.gif');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
